@@ -314,14 +314,4 @@ public class IAMClient {
 		
 		return res;
 	}
-	
-	public static void main(String args[]) 
-			throws IAMInputException, IAMServerErrorException, IAMClientErrorException {
-		IAMClient c = new IAMClient();
-		String temp = c.generateToken("85873d78-9d45-4bcf-9c74-995d50bb0192", "aeeab0a9-95f0-4a0b-a8c9-1a41eb330b02", "testPassword").getPayload();
-		System.out.println(temp);
-		System.out.println(c.validateToken("85873d78-9d45-4bcf-9c74-995d50bb0192", temp).getPayload());
-		System.out.println(c.deleteToken("85873d78-9d45-4bcf-9c74-995d50bb0192", temp).getPayload());
-		System.out.println(c.validateToken("85873d78-9d45-4bcf-9c74-995d50bb0192", temp).getPayload());
-	}
 }
