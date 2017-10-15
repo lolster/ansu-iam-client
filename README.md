@@ -45,7 +45,7 @@ This is inline with our actual server response which is a JSON object that looks
 
 ```json
 {
-    status: "..."
+    status: "...",
     payload: "..."
 }
 ```
