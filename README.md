@@ -45,12 +45,12 @@ This is inline with our actual server response which is a JSON object that looks
 
 ```json
 {
-    status: "...",
-    payload: "..."
+    "status": "...",
+    "payload": "..."
 }
 ```
 
-You can retrieve the appropriate fields by calling the corresponding getter (`get*()`). Usually, you'll only have to use the `getPayload()` method as the actual response from the server (the information).
+You can retrieve the appropriate fields by calling the corresponding getter (`get*()`). Usually, you'll only have to use the `getPayload()` method as the actual response from the server (the information) is under this field.
 
 You may not get a `IAMResponse` object under certain conditions:
 
