@@ -97,7 +97,7 @@ String appName = ...;
 IAMResponse response = client.getAppId(appName);
 ```
 
-Update token validity period.
+Update token validity period:
 
 ```java
 String appId = ...;
@@ -154,3 +154,7 @@ IAMResponse response = client.deleteToken(appId, tokenString);
 ```
 
 Note: `!Warning!` If the token is valid and request goes through successfully, then the payload should contain a "Success" message if the token is valid. However if the token is invalid then a `IAMServerErrorException` will be thrown. This is still under development. `IAMServerErrorException` can still be thrown under normal circumstances. Care must be taken to differentiate the two cases as of this point in time. Work around under development.
+
+#### Issues
+
+In case of any requests for features/improvements or issues/bugs, please raise a GitHub issue.
