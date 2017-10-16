@@ -10,6 +10,14 @@ It is preferred that you use this client (if you plan on using our AnSu-IAM Serv
 
 This project was done as part of our Web Services elective at PES University, Bangalore, India.
 
+## Download
+
+This is a maven project, which makes it really simple to distribute.
+
+You can clone this repo and use `mvn clean package` (you need to install maven first) to create the jar file if you want to be on the bleeding edge.
+
+Otherwise, you can get the latest stable release from (here)[https://github.com/lolster/ansu-iam-client/releases]. Just download the jar and include it in your classpath.
+
 ## Tutorial
 
 Using the client should be simple to anyone with basic Java know-how.
