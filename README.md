@@ -14,9 +14,9 @@ This project was done as part of our Web Services elective at PES University, Ba
 
 This is a maven project, which makes it really simple to distribute.
 
-You can clone this repo and use `mvn clean package` (you need to install maven first) to create the jar file if you want to be on the bleeding edge.
+You can clone this repo and use `mvn clean package` to create the jar file if you want to be on the bleeding edge.
 
-Otherwise, you can get the latest stable release from (here)[https://github.com/lolster/ansu-iam-client/releases]. Just download the jar and include it in your classpath.
+Otherwise, you can get the latest stable release from [here](https://github.com/lolster/ansu-iam-client/releases). Just download the jar and include it in your classpath.
 
 ## Tutorial
 
